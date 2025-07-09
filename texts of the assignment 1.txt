@@ -1,0 +1,77 @@
+
+# write your code here
+my_height: int = 1.93
+my_weight: int = 95
+my_bmi: my_weight / (my_height**2)
+print("My BMI is:", my_bmi)
+print("The datatype of MY BMI is:", type(my_bmi))
+
+2
+# write your code here
+full_name: str = "peter parker"
+age: int = 23
+weight: float = 89.3
+height: float = 1.71
+diabetic: bool = False
+print(f"Your full name is {full_name}")
+print(f"Your age is {age}")
+print(f"Your weight is {weight}")
+print(f"Your height is {height}")
+print(f"Your diabetic status is {diabetic}".replace("False", "non_diabetic")) 
+
+1
+# write your code here
+full_name: str = "peter parker"
+age: int = 23
+weight: float = 89.3
+height: float = 1.71
+diabetic: bool = False
+
+our Name: mohammad sakha shokoohmand
+
+Your Email:mosashokoohmand@gmail.com
+
+# Patient data
+patient_age = 45
+patient_weight = 70.5  # kg
+patient_height = 1.65  # meters
+systolic_bp = 135  # mmHg
+diastolic_bp = 85  # mmHg
+has_diabetes = True
+
+# 1. Check if the patient is an adult (age >= 18). Print the result.
+is_adult =  patient_age >= 45 # Replace with a comparison
+print(f"Is the patient an adult? {is_adult}")
+
+# 2. Check if the patient's BMI is in the normal range (18.5 <= BMI < 25).
+#    Calculate BMI first, then check the condition.
+bmi = patient_weight / (patient_height ** 2)
+is_bmi_normal = (bmi>=18.5) and (bmi<=25)  # Replace with a logical condition
+print(f"Is the BMI in the normal range? {is_bmi_normal}")
+
+# 3. Check if the patient is hypertensive based on blood pressure.
+#    Hypertension: systolic BP >= 140 or diastolic BP >= 90.
+is_hypertensive = (systolic_bp >= 140) or (diastolic_bp >= 90)  # Replace with a logical condition
+print(f"Is the patient hypertensive? {is_hypertensive}")
+
+# 4. Check if the patient is an adult **and** has diabetes.
+adult_and_diabetic = (patient_age >= 18) and (has_diabetes)  # Replace with a logical condition
+print(f"Is the patient an adult and diabetic? {adult_and_diabetic}")
+
+# 5. Check if the patient is not hypertensive and BMI is normal.
+healthy_condition = is_bmi_normal and (not(is_hypertensive))  # Replace with a logical condition
+print(f"Is the patient non-hypertensive with a normal BMI? {healthy_condition}")
+
+# 6. Check if the patient has **either** diabetes or hypertension (or both).
+diabetes_or_hypertension = has_diabetes or is_hypertensive
+# Replace with a logical condition
+print(f"Does the patient have diabetes or hypertension? {diabetes_or_hypertension}")
+
+# 7. Verify if the patient's age is within the range of 30 to 50 (inclusive).
+age_in_range = patient_age>=30 and patient_age<=50  # Replace with a logical condition
+print(f"Is the patient's age between 30 and 50? {age_in_range}")
+
+# 8. Check if the patient’s systolic BP is divisible by 5.
+bp_divisible_by_5 = systolic_bp % 5 == 0  # Replace with a condition using modulus operator
+print(f"Is the systolic blood pressure divisible by 5? {bp_divisible_by_5}")
+Your Gthub Link:
